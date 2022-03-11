@@ -16,7 +16,9 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgrey;
+    background-color: black;
+    color: white;
+    font-family: var(--fonte2);
 }
 
 header {
@@ -27,6 +29,7 @@ header {
 
 header > h1 {
     padding-top: 50px;
+    color: rgb(126, 69, 179);
     font-variant: small-caps;
     font-family: var(--fonte3);
     font-size: 5vw;
@@ -38,12 +41,7 @@ header > p {
 }
 
 a {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-a:hover {
+    color: rgb(145, 145, 0);
     text-decoration: underline;
 }
 
@@ -92,5 +90,5 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
