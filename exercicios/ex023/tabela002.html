@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            min-width: 400px;
+            border-collapse: collapse;
+            margin: auto;
+            background-color: white;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #102540;
+            color: white;
+        }
+
+        td.num {
+            text-align: center;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- anatoma para tabelas grandes
+        table
+            head
+            thead
+                tr, td, th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th
+    -->
+    <table>
+        <caption>Artilheiros do ano até o momento no futebol (15/03/2022)</caption>
+        <thead>
+            <tr>
+                <th scope="col">Jogadores</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Clube</th>
+                <th scope="col">Jogos</th>
+                <th scope="col">Gols</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Franck Etouga</td>
+                <td class="num">20</td>
+                <td>Asante Kotoko</td>
+                <td class="num">11</td>
+                <td class="num" >11</td>
+            </tr>
+            <tr>
+                <td>Akram Afif</td>
+                <td class="num">25</td>
+                <td>Al-Sadd SC</td>
+                <td class="num">10</td>
+                <td class="num">10</td>
+            </tr>
+            <tr>
+                <td>Samy Frioui</td>
+                <td class="num">30</td>
+                <td>MC Alger</td>
+                <td class="num">10</td>
+                <td class="num">10</td>
+            </tr>
+            <tr>
+                <td>Robert Lewandowski</td>
+                <td class="num">33</td>
+                <td>Bayern Munchen</td>
+                <td class="num">9</td>
+                <td class="num">10</td>
+            </tr>
+            <tr>
+                <td>Jamie Maclaren</td>
+                <td class="num">28</td>
+                <td>Melbourne City</td>
+                <td class="num">12</td>
+                <td class="num">10</td>
+            </tr>
+            <tr>
+                <td>Dominik Stolz</td>
+                <td class="num">31</td>
+                <td>Hesperange</td>
+                <td class="num">6</td>
+                <td class="num">9</td>
+            </tr>
+            <tr>
+                <td>Marko Livaja</td>
+                <td class="num">28</td>
+                <td>Hajduk Split</td>
+                <td class="num">7</td>
+                <td class="num">9</td>
+            </tr>
+            <tr>
+                <td>Bartholomew Ogbeche</td>
+                <td class="num">37</td>
+                <td>Hyderabad FC</td>
+                <td class="num">9</td>
+                <td class="num">9</td>
+            </tr>
+            <tr>
+                <td>Michael Olunga</td>
+                <td class="num">27</td>
+                <td>Al-Duhail SC</td>
+                <td class="num">11</td>
+                <td class="num">9</td>
+            </tr>
+            <tr>
+                <td>Ilija Spasojević</td>
+                <td class="num">34</td>
+                <td>Bali United</td>
+                <td class="num">15</td>
+                <td class="num">9</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
