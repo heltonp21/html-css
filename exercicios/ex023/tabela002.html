@@ -19,6 +19,7 @@
             border-collapse: collapse;
             margin: auto;
             background-color: white;
+            position: relative;
         }
 
         td, th {
@@ -41,6 +42,16 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
         
     </style>
@@ -69,6 +80,13 @@
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <td>Peter Ebimobowei</td>
+                <td class="num">28</td>
+                <td>Asante Kotoko</td>
+                <td class="num">9</td>
+                <td class="num" >11</td>
+            </tr>
             <tr>
                 <td>Franck Etouga</td>
                 <td class="num">20</td>
@@ -126,17 +144,17 @@
                 <td class="num">9</td>
             </tr>
             <tr>
+                <td>Robinho</td>
+                <td class="num">26</td>
+                <td>Al-Duhail SC</td>
+                <td class="num">9</td>
+                <td class="num">9</td>
+            </tr>
+            <tr>
                 <td>Michael Olunga</td>
                 <td class="num">27</td>
                 <td>Al-Duhail SC</td>
                 <td class="num">11</td>
-                <td class="num">9</td>
-            </tr>
-            <tr>
-                <td>Ilija Spasojević</td>
-                <td class="num">34</td>
-                <td>Bali United</td>
-                <td class="num">15</td>
                 <td class="num">9</td>
             </tr>
         </tbody>
